@@ -1,0 +1,2 @@
+from statistics import *
+print(f"Mean:{mean(l:=[float(input(f"Enter {i+1} observation:")) for i in range(int(input("Enter the no. of observations:")))])}\nMedian:{median(l)}\nMode:{mode(l)}\nGeometric mean:{geometric_mean(l)}\nHarmonic mean:{harmonic_mean(l)}\nStandard deviation:{stdev(l)}\nVariance:{variance(l)}")

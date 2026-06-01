@@ -1,0 +1,7 @@
+a = int(input("Enter first co-efficient:"))
+b = int(input("Enter second co-efficient:"))
+c = int(input("Enter third co-efficient:"))
+ans1 = (-b+((b*b)-4*a*c)**(1/2))/(2*a)
+ans2 = (-b-((b*b)-4*a*c)**(1/2))/(2*a)
+print(f"Root 1:{ans1}")
+print(f"Root 2:{ans2}")
